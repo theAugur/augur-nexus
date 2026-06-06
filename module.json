@@ -2,10 +2,10 @@
     "id": "augur-nexus",
     "title": "Augur: Nexus",
     "url": "https://www.patreon.com/TheAugur",
-    "manifest": "https://github.com/theAugur/augur-nexus/releases/download/v1.1.3/module.json",
-    "download": "https://github.com/theAugur/augur-nexus/releases/download/v1.1.3/augur-nexus.zip",
+    "manifest": "https://github.com/theAugur/augur-nexus/releases/download/v1.1.4/module.json",
+    "download": "https://github.com/theAugur/augur-nexus/releases/download/v1.1.4/augur-nexus.zip",
     "description": "Connect scenes and maps into a navigable world with linked locations and a world browser.",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "compatibility": {
         "minimum": "13",
         "maximum": "14",
