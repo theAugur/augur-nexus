@@ -2,10 +2,10 @@
     "id": "augur-nexus",
     "title": "Augur: Nexus",
     "url": "https://www.patreon.com/TheAugur",
-    "manifest": "https://github.com/theAugur/augur-nexus/releases/download/v1.1.9/module.json",
-    "download": "https://github.com/theAugur/augur-nexus/releases/download/v1.1.9/augur-nexus.zip",
+    "manifest": "https://github.com/theAugur/augur-nexus/releases/download/v1.5.1/module.json",
+    "download": "https://github.com/theAugur/augur-nexus/releases/download/v1.5.1/augur-nexus.zip",
     "description": "Connect scenes and maps into a navigable world with linked locations and a world browser.",
-    "version": "1.1.9",
+    "version": "1.5.1",
     "compatibility": {
         "minimum": "13",
         "maximum": "14",
@@ -20,7 +20,26 @@
         "scripts/augur-nexus.js"
     ],
     "styles": [
-        "styles/augur-nexus.css"
+        "styles/core/00-foundation.css",
+        "styles/core/01-theme-contract.css",
+        "styles/features/10-nexus-browser.css",
+        "styles/features/20-entity-dossiers.css",
+        "styles/features/25-settlement-dossier.css",
+        "styles/features/26-settlement-refinements.css",
+        "styles/features/30-entity-editors.css",
+        "styles/features/40-sites-connections.css",
+        "styles/features/50-shops.css",
+        "styles/features/51-settlement-economy.css",
+        "styles/features/52-regional-trade-network.css",
+        "styles/features/53-trade-good-detail.css",
+        "styles/features/54-trade-goods-catalog.css",
+        "styles/features/55-settlement-marketplace-editor.css",
+        "styles/features/60-generators-deletion.css",
+        "styles/features/70-chronicle.css",
+        "styles/features/80-opinions.css",
+        "styles/features/90-npc-life.css",
+        "styles/themes/fantasy-gilded-dark.css",
+        "styles/components/95-entity-images.css"
     ],
     "packs": [],
     "persistentStorage": true,
@@ -28,5 +47,6 @@
         "systems": [],
         "requires": []
     },
-    "protected": false
+    "protected": false,
+    "socket": true
 }
